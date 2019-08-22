@@ -1,0 +1,133 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MusicMood - Music According to your mood</title>
+    <link rel="stylesheet" href="assets\css\site.css">
+    <link rel="stylesheet" href="assets\css\custom.css">
+    <link rel="Shortcut Icon" href="assets\images\favicon.png" type="image/x-icon">
+</head>
+    <body>
+
+    <div class="loader">
+        <div class="loader__figure"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index-1.html" class="navbar-brand">
+                <img src="assets\images\logo.png" alt="logo">
+            </a>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#Services">Home</a>
+                </li>
+                <li>
+                    <a href="#Experience">Songs</a>
+                </li>
+                <li>
+                    <a href="#Skills">Genre</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero hero-full-height overlay darken-2" data-image-src="assets/images/cover.jpg">
+
+        <div class="container">
+            <img src="assets\images\avatar.jpg" alt="...">
+            <h2>What's your mood right now? <span data-string='["Happy?", "Sad?", "Excited?", "Romantic?"]' class="typed-js text-primary"></span></h2>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Let us know your mood right now and we will suggest you some songs according to that.</p>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="mood.php?mood=1" class="btn"><i class="md-play m-r-10"></i>Happy</a>
+                </li>
+                <li>
+                    <a href="mood.php?mood=2" class="btn">Sad</a>
+                </li>
+                <li>
+                    <a href="mood.php?mood=3" class="btn">Excited</a>
+                </li>
+                <li>
+                    <a href="mood.php?mood=4" class="btn">Romantic</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <h3>
+                            <span class="animate-number" data-number="12">1</span>
+                        </h3>
+                        <div class="counter-title">Happy Songs</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <h3>
+                            <span class="animate-number" data-number="8">1</span>
+                        </h3>
+                        <div class="counter-title">Sad Songs</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <h3>
+                            <span class="animate-number" data-number="6">1</span>
+                        </h3>
+                        <div class="counter-title">Romantic Songs</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter">
+                        <h3>
+                            <span class="animate-number" data-number="15">1</span>
+                        </h3>
+                        <div class="counter-title">Party Songs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Mood-Music, a Semester project for BTech CSE IV Sem.</p>
+                    <ul class="social-buttons sm">
+                        <li><a class="facebook" href=""><i class="md-facebook"></i></a></li>
+                        <li><a class="twitter" href=""><i class="md-twitter"></i></a></li>
+                        <li><a class="google" href=""><i class="md-google"></i></a></li>
+                        <li><a class="skype" href=""><i class="md-skype"></i></a></li>
+                        <li><a class="linkedin" href=""><i class="md-linkedin"></i></a></li>
+                        <li><a class="flickr" href=""><i class="md-flickr"></i></a></li>
+                        <li><a class="whatsapp" href=""><i class="md-whatsapp"></i></a></li>
+                    </ul>
+                    <span>MoodMusic 2018 &copy; All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets\js\jquery\jquery.min.js"></script>
+    <script src="assets\js\bootstrap-3.3.7\bootstrap.min.js"></script>
+    <script src="assets\js\viewportchecker.min.js"></script>
+    <script src="assets\js\slick\slick.min.js"></script>
+    <script src="assets\js\animateNumber\jquery.animateNumber.min.js"></script>
+    <script src="assets\js\isotope.pkgd.min.js"></script>
+    <script src="assets\js\typed.min.js"></script>
+    <script src="assets\js\site.js"></script>
+    <script src="assets\js\custom.js"></script>
+</body>
+</html>
